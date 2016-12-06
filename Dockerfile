@@ -1,4 +1,4 @@
-FROM nouchka/symfony:latest
+FROM nouchka/symfony:7.0
 MAINTAINER Dharma Fawkes "docker@katagena.com"
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
